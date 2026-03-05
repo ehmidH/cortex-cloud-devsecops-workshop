@@ -6,7 +6,7 @@ on:
       - main    
 jobs:
   scan:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: read # for actions/checkout to fetch code
       security-events: write # for GitHub/codeql-action/upload-sarif to upload SARIF results
